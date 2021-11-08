@@ -15,6 +15,16 @@ export const MENU_ITEMS: NbMenuItem[] = [
       }
     ],
   },
+  {
+    title: 'Quản lý vận đơn',
+    icon: 'car-outline',
+    children: [
+      {
+        title: 'Báo cáo doanh thu',
+        link: 'shipment-management',
+      }
+    ],
+  },
   // {
   //   title: 'Quản lý phương tiện',
   //   icon: 'car-outline',
